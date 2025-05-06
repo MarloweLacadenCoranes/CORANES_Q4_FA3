@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Q4 FA3</title>
+  <style>
+    body {
+      margin: 20px;
+      background-color: #a0c0bb;
+      font-family: sans-serif;
+    }
+    h2 {
+      margin-bottom: 10px;
+    }
+    input, button {
+      margin: 5px 5px 10px 0;
+      padding: 6px 10px;
+    }
+    button {
+      background-color: lightblue;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #add8e6;
+    }
+    #output, #contactsOutput {
+      margin-top: 15px;
+      white-space: pre;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>1. Number Shape Generator</h2>
+  <div id="output"></div>
+
+  <h2>2. Contact List Manager</h2>
+  <input type="text" id="nameInput" placeholder="Enter a name">
+  <button onclick="addContact()">ADD</button>
+  <button onclick="removeContact()">REMOVE</button>
+  <div id="contactsOutput"></div>
+
+  <script src="333.js"></script>
+
+</body>
+</html>
